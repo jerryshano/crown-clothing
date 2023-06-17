@@ -5,8 +5,8 @@ body {
     "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  // Jeryy Styles
-  background-color: fade-in($color: #a5d8d7, $amount: 0.3);
+  padding: 20px 40px;
+  background-color: dimgray;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
