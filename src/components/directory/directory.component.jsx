@@ -37,9 +37,9 @@ const categories = [
 const Directory = () => {
   return (
     <div className="directory-container">
-      {categories.map((category) => {
-        return <DirectoryItem category={category} key={category.id} />;
-      })}
+      {categories.map((category) => (
+        <DirectoryItem category={category} key={category.id} />
+      ))}
     </div>
   );
 };
